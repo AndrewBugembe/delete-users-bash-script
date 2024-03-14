@@ -1,13 +1,9 @@
-# delete-users-bash-script
 <p align="center">
 <img src="https://i.imgur.com/kZuYX7q.png"/>
 </p>
 
 <h1>User Deletion Script</h1>
 This Bash script facilitates the deletion of user accounts on Linux systems. It offers the flexibility to either keep or remove the user's home directory.
-
-## Use Case
-- PDQ Deploy allows you to deploy new software to end-user computers. This is especially valuable when working remotely, as it streamlines the installation process.
 
 ## Prerequisites
 - The script must be run with root or administrative privileges.
@@ -28,7 +24,10 @@ This Bash script facilitates the deletion of user accounts on Linux systems. It 
 <h2>Usage</h2>
 The script requires two arguments
 
-- Configure Active Directory; create a domain controller and user server
+- Username: The name of the user account to be deleted
+- Option: Indicates whether to keep or remove the user's home directory.
+  - K: Keep the home directory.
+  - R: Remove the home directory
 
 
 <h2>Steps</h2>
