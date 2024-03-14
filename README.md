@@ -23,45 +23,30 @@ This Bash script facilitates the deletion of user accounts on Linux systems. It 
 
 <h2>Usage</h2>
 The script requires two arguments
-
 - Username: The name of the user account to be deleted
 - Option: Indicates whether to keep or remove the user's home directory.
   - K: Keep the home directory.
   - R: Remove the home directory
-Command Syntax
-bash
-Copy code
-./delete-users.sh [Username] [Option]
-Examples
-To delete johndoe and keep their home directory:
-bash
-Copy code
-./delete-users.sh johndoe K
-To delete johndoe and remove their home directory:
-bash
-Copy code
-./delete-users.sh johndoe R
-Notes
+
+
+## Command Syntax
+<p>
+<img src="https://i.imgur.com/e4traKp.png"/>
+</p>
+
+## Example to delete johndoe and keep their home directory
+<p>
+<img src="https://i.imgur.com/ryw3YWi.png"/>
+</p>
+
+## Notes
 Running this script with administrative privileges is necessary.
 It is advisable to backup important data before proceeding, especially if the option to remove the home directory is chosen.
 Use this script with caution and understanding of the consequences associated with deleting user accounts.
 
 
-<p>
-Command Syntax
-bash
-Copy code
-./delete-users.sh [Username] [Option]
-Examples
-To delete johndoe and keep their home directory:
-bash
-Copy code
-./delete-users.sh johndoe K
-To delete johndoe and remove their home directory:
-bash
-Copy code
-./delete-users.sh johndoe R
-Notes
+
+
 Running this script with administrative privileges is necessary.
 It is advisable to backup important data before proceeding, especially if the option to remove the home directory is chosen.
 Use this script with caution and understanding of the consequences associated with deleting user accounts.
